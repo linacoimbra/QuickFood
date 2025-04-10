@@ -1,0 +1,45 @@
+@import url('./global.css');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    padding: 40px 100px;
+}
+
+.active{
+    color: var(--color-primary);
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-header{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 16px 32px;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+
